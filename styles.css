@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    overflow: hidden;
+}
+.login_container{
+    width: 100%;
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.left{
+    left: 0;
+    width: 54%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+}
+.left svg{
+    width: 37%;
+}
+.right{
+    width: 46%;
+    background-color: black;
+}
+
+.inner_right{
+    color: #fff;
+    margin-left:4%;
+    margin-top:6em;
+}
+.inner_right svg{
+    width: 5.5%;
+}
+.inner_right h1{
+    width: 60%;
+    margin-top:1.5em;
+    margin-bottom: .5em;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.inner_right h2{
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.inner_right button{
+    display: block;
+    width: 20em;
+    height: 2.5em;
+    border-radius: 1.5em;
+    margin: .8em;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+.google_img{
+    width: 2em;
+    height: 2em;
+}
+span{
+    width: 15em;
+}
+.google_icn g{
+    height: 2.5em;
+    margin-left: 4.5em;
+}
+.apple_logo{
+    margin-left: 5em;
+    margin-right: .5em;
+}
+.inner_right p{
+    font-weight: 500;
+    color: gray;
+    width: 35%;
+    font-size: .6em;
+}
+.inner_right h4{
+    margin-top: 3em;
+    font-size:1em;
+    font-weight: 700;
+}
+.inner_right .btn-dark{
+    color: #1485ff;
+    background-color: black;
+    justify-content: center;
+}
+footer{
+    height: 5vh;
+    background-color: black;
+}
+nav{
+    padding: 1em;
+    padding-left: 10em;
+    padding-top: .8em;
+
+}
+nav a{
+    font-size: .8em;
+    font-weight: 300;
+    word-spacing: 5px;
+    margin: .3em;
+    color: gray;
+}
