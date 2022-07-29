@@ -107,3 +107,30 @@ nav a{
     margin: .3em;
     color: gray;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    overflow: auto;
+  }
+  .login_container {
+    display: table;
+  }
+  .right {
+    display: table-header-group;
+    width: 100%;
+  }
+  .left {
+    display: table-row-group;
+  }
+  footer {
+    height: auto;
+    width: 100vw;
+    padding-left: 0;
+  }
+  nav {
+    padding: 1em;
+  }
+  p {
+    width: 80%;
+  }
+}
